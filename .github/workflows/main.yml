@@ -23,5 +23,5 @@ jobs:
 
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ env.BOT_TOKEN }}
+          BOT_TOKEN: ${{ MTE5MTg1MjM4Njk1Njg2OTY4Mw.GHISVY.-uTGVHJ5rj2u0akJiAyytMORAUnawB4uhk_vxQ }}
         run: node script.js
