@@ -1,4 +1,4 @@
-import { Client } from "discord.js";
+const { Client } = require("discord.js");
 const client = new Client();
 
 client.on("message", (message) => {
@@ -9,4 +9,5 @@ client.on("message", (message) => {
   }
 });
 
-client.login("TOKEN_DEL_BOT");
+// Obtén el token desde la variable de entorno
+client.login(process.env.BOT_TOKEN);
